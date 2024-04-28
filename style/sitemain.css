@@ -1,0 +1,29 @@
+:root {
+	--base-page-color: #000005;
+	--for-text-bg-color: #000000;
+	--for-instruct-bg-color: #000000;
+	--for-instruct-tx-color: #ffcccc;
+	--for-most-tx-color: #ffff00;
+	--group-of-sect-color: #200000;
+	--for-most-link-color: #ffff88;
+	--for-most-link-visited-color: #ffff22;
+	--for-most-link-hover-color: #ffffff;
+	--for-most-link-active-color: #ff0000;
+}
+
+body {
+	background-color: var(--base-page-color);
+	color: var(--for-most-tx-color);
+	a:link { color: var(--for-most-link-color); }
+	a:visited { color: var(--for-most-link-visited-color); }
+	a:hover { color: var(--for-most-link-hover-color); }
+	a:active { color: var(--for-most-link-active-color); }
+}
+
+div.notice {
+	font-size: 300%;
+	background-color: var(--for-text-bg-color);
+	margin: 10px;
+	padding: 20px;
+	border-radius: 20px;
+}
